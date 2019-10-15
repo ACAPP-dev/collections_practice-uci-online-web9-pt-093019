@@ -30,3 +30,7 @@ def reverse_array(array)
   array.reverse
 end
 
+def kesha_maker(array)
+  return_array = []
+  array.each do |element|
+    
