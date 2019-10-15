@@ -33,4 +33,8 @@ end
 def kesha_maker(array)
   return_array = []
   array.each do |element|
+    element[3] = "$"
     return_array << element
+  end
+end
+
