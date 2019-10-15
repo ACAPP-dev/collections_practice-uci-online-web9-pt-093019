@@ -22,3 +22,6 @@ def swap_elements_from_to(array, index, destination_index)
   array[index] , array[destination_index] = array[destination_index] , array[index]
   array
 end
+
+p array = %w(a b c l q)
+p swap_elements_from_to(array, 2, 3)
