@@ -55,7 +55,7 @@ def add_s(array)
     if i == 3
       i +=1
     else
-      return_array << element + "s"
+      return_array << array[i] + "s"
       i += 1
     end
   end
