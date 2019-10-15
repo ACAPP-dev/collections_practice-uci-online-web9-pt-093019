@@ -64,4 +64,10 @@ def add_s(array)
   #array.map {|element| element+"s"}
 end
 
-p add_s(%w(well water wine butter))
+def add_s2(array)
+  array.each_with_index.map{|element, index|
+      next if index == 1
+      element + "s"  
+  }
+
+p add_s2(%w(well water wine butter))
