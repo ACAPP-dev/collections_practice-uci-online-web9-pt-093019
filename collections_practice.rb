@@ -75,4 +75,4 @@ def add_s(array)
 end
 
 
-p add_s2(%w(well water wine butter))
+p add_s(%w(well water wine butter))
