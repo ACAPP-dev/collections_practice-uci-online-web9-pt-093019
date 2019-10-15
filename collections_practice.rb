@@ -37,4 +37,3 @@ def kesha_maker(array)
     return_array << element
   end
 end
-
