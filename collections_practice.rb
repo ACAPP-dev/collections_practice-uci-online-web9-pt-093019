@@ -47,3 +47,10 @@ def sum_array(array)
   #array.inject {|sum, element| sum + element }
   array.reduce(:+)
 end
+
+def add_s(array)
+  array.map {|element| element+"s"}
+end
+
+p add_s(%w(well water wine butter))
+
