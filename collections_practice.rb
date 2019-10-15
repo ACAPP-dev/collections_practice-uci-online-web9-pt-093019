@@ -52,7 +52,7 @@ def add_s(array)
   i = 0
   return_array = []
   while i < array.length
-    if i == 2
+    if i == 1
       return_array << array[i]
       i +=1
     else
