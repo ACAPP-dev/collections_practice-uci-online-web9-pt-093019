@@ -25,3 +25,8 @@ end
 
 #p array = %w(a b c l q)
 #p swap_elements_from_to(array, 2, 3)
+
+def reverse_array(array)
+  array.reverse
+end
+
