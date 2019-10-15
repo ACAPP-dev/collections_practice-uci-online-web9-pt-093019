@@ -23,5 +23,5 @@ def swap_elements_from_to(array, index, destination_index)
   array
 end
 
-p array = %w(a b c l q)
-p swap_elements_from_to(array, 2, 3)
+#p array = %w(a b c l q)
+#p swap_elements_from_to(array, 2, 3)
