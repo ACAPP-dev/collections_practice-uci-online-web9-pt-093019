@@ -41,3 +41,10 @@ end
 def find_a(array)
   array.find_all {|element| element.start_with?("a")}
 end
+
+def sum_array(array)
+  array.sum
+end
+
+
+
