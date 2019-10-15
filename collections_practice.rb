@@ -49,7 +49,18 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map {|element| element+"s"}
+  i = 0
+  return_array = []
+  while i < array.length
+    if i == 3
+      i +=1
+    else
+      return_array << element + "s"
+      i += 1
+    end
+  end
+  return_array
+  #array.map {|element| element+"s"}
 end
 
 p add_s(%w(well water wine butter))
