@@ -48,7 +48,7 @@ def sum_array(array)
   array.reduce(:+)
 end
 
-def add_s(array)
+def add_s_old(array)
   i = 0
   return_array = []
   while i < array.length
@@ -64,7 +64,7 @@ def add_s(array)
   #array.map {|element| element+"s"}
 end
 
-def add_s2(array)
+def add_s(array)
   array.each_with_index.map{|element, index|
       if index == 1
         element
