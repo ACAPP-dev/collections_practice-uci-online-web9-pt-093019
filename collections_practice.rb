@@ -53,6 +53,7 @@ def add_s(array)
   return_array = []
   while i < array.length
     if i == 3
+      return_array << array[i]
       i +=1
     else
       return_array << array[i] + "s"
